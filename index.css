@@ -57,21 +57,12 @@ body {
 	max-width:600px;
 }
 
-#welcome_text {
-	margin-left: 20%;
-	height: 40%;
-	font-family: 'Indie Flower', cursive;
-	font-size: 200%;
-	padding: 0%;
-	overflow: hidden;
-}
-
 #banner_text {
-	margin-top: 2%;
+	margin-top: 30px;
 	height: 60%;
-	margin-left: 30%;
-	font-family: 'Indie Flower', cursive;
-	font-size: 400%;
+	margin-left: 180px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 50px;
 	padding: 0%;
 	overflow: hidden;
 }

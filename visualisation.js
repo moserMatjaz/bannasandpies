@@ -88,8 +88,8 @@ function main(error, world, countryData){
                     d3.select("path#_" + data.results[0].data[z].row[2]).style("fill", colour_scale(z)).style("stroke-width", "1px").attr("class", "selected");
                     var name = data.results[0].data[z].row[0];
                     var value = data.results[0].data[z].row[1];
-                    value = value.toFixed(4);
-                    var output = name  + " ----- > " + value;
+                    value = value.toFixed(3);
+                    var output = name  + " - " + value;
                     console.log(output);
                     var div = document.getElementById('paragraph_text');
                     div.innerHTML = div.innerHTML + output + '<br>';
