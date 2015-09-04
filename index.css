@@ -85,13 +85,29 @@ a {
 }
 
 #introduction_left {
-	margin-top: 1%;
-	margin-left: 3%;
+	margin-top: 2px;
+	margin-left: 5px;
 	height: 90%;
-	width: 20%;
+	width: 200px;;
 	float: left;
 	min-width:200px;
 	max-width:200px;
+}
+
+#introduction_right {
+	margin-top: 2px;
+	margin-left: 120px;
+	height: 90%;
+	max-width:800px;
+	float: left;
+	min-width:300px;
+	max-width:700px;
+}
+
+#introduction_text {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 1%;
 }
 
 .content {
@@ -126,21 +142,7 @@ a {
 	margin-top: 0%;
 }
 
-#introduction_right {
-	margin-top: 1%;
-	margin-right: 3%;
-	height: 90%;
-	width: 70%;
-	float: right;
-	min-width:300px;
-	max-width:700px;
-}
 
-#introduction_text {
-	margin-top: 0%;
-	margin-bottom: 0%;
-	margin-left: 1%;
-}
 
 #about_me {
 	margin-top: 5%;
