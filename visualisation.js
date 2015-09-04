@@ -65,7 +65,7 @@ function main(error, world, countryData){
                 type: "POST",
                 accept: "application/json",
                 contentType:"application/json; charset=utf-8",
-                url: "http://recipesdatabasesimilairites.sb02.stations.graphenedb.com:24789/db/data/transaction/commit",
+                url: "recipesdatabasesimilairites.sb02.stations.graphenedb.com:24789/db/data/transaction/commit",
                 //url: "http://localhost:7474/db/data/transaction/commit",
                 headers: {"Authorization":"Basic <cmVjaXBlc19kYXRhYmFzZV9zaW1pbGFpcml0ZXM6ZGJSRnRScXJmMWg1VFpjbHdlMGY=>"},
                 //headers: {"Authorization":"Basic <bmVvNGo6bW9ycGhsaW5n>"},
