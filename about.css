@@ -18,22 +18,7 @@ body {
 	border-radius: 25px;
 }
 
-#main_index {
-	padding-top: 10px;
-	width: 90%;
-	height: 1500px;
-	margin-bottom: 3%;
-	margin-top: 3%;
-	margin-left: 5%;
-	background-color: #66CC66;
-	opacity: 0.9;
-	min-width:300px;
-	max-width:1500px;
-	border-radius: 25px;
-	overflow: hidden;
-}
-
-#main_about {
+#main {
 	padding-top: 10px;
 	width: 90%;
 	height: 2000px;
@@ -180,77 +165,11 @@ a {
 	margin-bottom: 5%;
 }
 
-#project {
-	margin-top: 5%;
-	margin-left: 5%;
-	width: 90%;
-	height: 1300px;
-}
-
 #external {
 	margin-left: 5%;
 	width: 90%;
 	height: 300px;
 	overflow: auto;
-}
-
-#references{
-	width: 90%;
-	height: 90%;
-	margin-top: 1%;
-	margin-right: 5%;
-	float: right;
-	overflow: auto;
-	border-radius: 25px;
-	background-color: #99FF66;
-	overflow: auto;
-}
-
-#map {
-	width: 98%;
-	height: 50%;
-	margin-left: 1%;
-	overflow: hidden;
-	border-radius: 25px;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	opacity: 1;
-	background-color: #99FF66;
-}
-
-#below_map {
-	width: 98%;
-	height: 48%;
-	margin-left: 1%;
-}
-
-#disclaimer_results {
-	height: 98%;
-	width: 38%;
-	float: left;
-}
-
-#disclaimer {
-	height: 38%;
-	width: 98%;
-	overflow: auto;
-	border-radius: 25px;
-	background-color: #99FF66;
-	vertical-align: middle;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 15px;
-	overflow: auto;
-	background-color: #99CC33;
-	border: 1px solid green;
-}
-
-#results {
-	height: 60%;
-	width: 98%;
-	margin-top: 10px;
-	overflow: auto;
-	border-radius: 25px;
-	background-color: #99FF66;
 }
 
 #paragraph_text {
@@ -260,13 +179,6 @@ a {
 	font-size: 100%;
 }
 
-#explain {
-	height: 98%;
-	width: 60%;
-	float: right;
-	border-radius: 25px;
-	background-color: #99FF66
-}
 /* footer part*/
 
 .folder {
@@ -352,9 +264,6 @@ img {
 }
 .footer_text {
 	margin-left: 6%;
-}
-#to_about {
-	text-align: center;	 
 }
 
 /*common stuff*/
