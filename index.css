@@ -21,7 +21,7 @@ body {
 #main {
 	padding-top: 10px;
 	width: 90%;
-	height: 3500px;
+	height: 3350px;
 	margin-bottom: 3%;
 	margin-top: 3%;
 	margin-left: 5%;
@@ -168,7 +168,6 @@ a {
 }
 
 #external {
-	margin-top: 5%;
 	margin-left: 5%;
 	width: 90%;
 	height: 300px;
@@ -237,7 +236,7 @@ a {
 	margin-left: 10%;
 	margin-top: 1%;
 	font-family: 'Libre Baskerville', serif;
-	font-size: 135%;
+	font-size: 100%;
 }
 
 #explain {
