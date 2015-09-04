@@ -58,13 +58,13 @@ body {
 }
 
 #banner_text {
-	vertical-align: middle;
 	height: 60%;
 	font-family: 'Libre Baskerville', serif;
 	font-size: 50px;
 	padding: 0%;
 	overflow: hidden;
-	text-align:center
+	text-align:center;
+	vertical-align: middle;
 }
 
 /*main part*/
@@ -219,13 +219,10 @@ a {
 	overflow: auto;
 	border-radius: 25px;
 	background-color: #99FF66;
-}
-
-.disclaimer_text {
-	margin-left: 3%;
-	margin-top: 1%;
+	vertical-align: middle;
 	font-family: 'Libre Baskerville', serif;
-	font-size: 20px;
+	font-size: 15px;
+	overflow: auto;
 }
 
 #results {
