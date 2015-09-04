@@ -58,13 +58,13 @@ body {
 }
 
 #banner_text {
-	margin-top: 30px;
+	vertical-align: middle;
 	height: 60%;
-	margin-left: 180px;
 	font-family: 'Libre Baskerville', serif;
 	font-size: 50px;
 	padding: 0%;
 	overflow: hidden;
+	text-align:center
 }
 
 /*main part*/
@@ -269,11 +269,12 @@ a {
 
 .conectors {
 	height: 41px;
-	width: 250px;
-	margin-top: 40px;
-	margin-left: 30%;
-	min-width:250px;
-	max-width:250px;
+	width: 185px;
+	min-width:185px;
+	max-width:185px;
+	margin: 0 auto;
+    padding: 40px;
+    position: relative;
 	}
 
 .git {
