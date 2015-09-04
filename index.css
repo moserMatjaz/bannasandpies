@@ -56,7 +56,7 @@ body {
 	background-color: #CCFF99;
 	min-width:300px;
 	max-width:600px;
-	overflow: auto;
+	overflow: hidden;
 }
 
 #banner_text {
