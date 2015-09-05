@@ -1,7 +1,7 @@
 var width = 2000;
 var height = 2000;
 var svg = d3.select("#map").append("svg").attr("width", width) .attr("height", height);
-var projection = d3.geo.mercator().center([40,35]) .scale(200) .rotate([0,0,0]); 
+var projection = d3.geo.mercator().center([40,35]) .scale(250) .rotate([0,0,0]); 
 var path = d3.geo.path().projection(projection); 
 var g = svg.append("g"); 
 
@@ -81,7 +81,7 @@ function main(error, world, countryData){
 
                     var paragraph = document.createElement("p");
                     paragraph.id = "paragraph_text";
-                    var text_output = document.getElementById("results");
+                    var text_output = document.getElementById("inside_map");
                     text_output.appendChild(paragraph)
                     
                 for(z = 0; z < 31; z++){ 
