@@ -2,7 +2,7 @@
 html {
 	background-color: #A0A0A0;
 	background-image: url("cake3.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-attachment: fixed !important;
 	width: 100%
 }
