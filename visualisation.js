@@ -1,5 +1,5 @@
 var width = 2000;
-var height = 2000;
+var height = 700;
 var svg = d3.select("#map").append("svg").attr("width", width) .attr("height", height);
 var projection = d3.geo.mercator().center([40,35]) .scale(250) .rotate([0,0,0]); 
 var path = d3.geo.path().projection(projection); 
