@@ -5,7 +5,7 @@ var projection = d3.geo.mercator().center([40,35]) .scale(250) .rotate([0,0,0]);
 var path = d3.geo.path().projection(projection); 
 var g = svg.append("g"); 
 
-var country_selector = d3.select("#map").append("div").attr("class", "country_selector"); 
+var country_selector = d3.select("#map").append("div").attr("class", "country_selector").attr("width", width) .attr("height", height); 
 
 queue().defer(d3.json, "world-110m.json").defer(d3.csv, "country_data4.csv").await(main);
 
