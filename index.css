@@ -1,5 +1,5 @@
 /* main elements of the page*/
-body {
+html {
 	background-color: #A0A0A0;
 	background-image: url("cake3.jpg");
 	background-repeat: no-repeat;
@@ -227,7 +227,7 @@ a {
 
 
 #short_descripton {
-	margin-top: 1%;
+	margin-top: 0%;
 	width: 98%;
 	height: 10%;
 	background-color: #99CC33;
@@ -394,42 +394,42 @@ path {
 }
 
 path:hover {
-stroke-width: 1px;
-opacity: 1;
-fill: #000033;
+	stroke-width: 1px;
+	opacity: 1;
+	fill: #000033;
 }
 
 .selected {
-opacity: 1;
+	opacity: 1;
 }
 
 .in_scope {
-stroke: blue;
-stroke-width: 0.5px;
-fill: black;
-opacity: 1;
+	stroke: blue;
+	stroke-width: 0.5px;
+	fill: black;
+	opacity: 1;
 }
 
 #text {
-border: solid #ccc 1px;
-color: #666;
+	border: solid #ccc 1px;
+	color: #666;
 }
 
 .country_selector { 
-position: absolute;
-background: #fff;
-padding: 5px;
-text-align: left;
-color: #666;
-font-size: 14px;
+	position: absolute;
+	background: #fff;
+	padding: 5px;
+	text-align: left;
+	color: #666;
+	font-size: 14px;
 }
 
 #myDiv {
-border: solid black 2px;
-width: 250px;
+	border: solid black 2px;
+	width: 250px;
 }
 
 p {
-margin: 0%;
+	margin: 0%;
 }
 
