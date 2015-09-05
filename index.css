@@ -36,7 +36,7 @@ body {
 #main_about {
 	padding-top: 10px;
 	width: 90%;
-	height: 2700px;
+	height: 2750px;
 	margin-bottom: 3%;
 	margin-top: 3%;
 	margin-left: 5%;
@@ -91,7 +91,6 @@ body {
 	margin-left: 5%;
 	width: 90%;
 	height: 400px;
-	overflow: hidden;
 }
 
 a {
@@ -102,10 +101,9 @@ a {
 #introduction_left {
 	margin-top: 2px;
 	margin-left: 5px;
-	height: 70%;
-	width: 205px; 
+	height: 58%;
+	width: 25%; 
 	float: left;
-	max-width:205px;
 	border-radius: 25px;
 	background-color: #99FF66;
 	overflow: auto;
@@ -174,7 +172,7 @@ a {
 	margin-top: 5%;
 	margin-left: 5%;
 	width: 90%;
-	height: 1550px;
+	height: 1600px;
 	overflow: auto;
 	background-color: #99CC33;
 	margin-bottom: 5%;
