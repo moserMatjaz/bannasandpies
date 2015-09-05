@@ -124,28 +124,6 @@ a {
 	margin-left: 2%;
 }
 
-.content {
-	width: 90%;
-	height: 8%;
-	margin-top: 0%;
-	margin-bottom: 1%;
-}
-
-.content:hover {
-	background-color: #A0A0A0;
-}
-
-#project_div{
-	width: 90%;
-	height: 40%;
-	margin-top: 0%;
-	margin-bottom: 1%;
-}
-
-#project_div:hover {
-	background-color: #A0A0A0;
-}
-
 #table {
 	margin-top: 1%;
 	margin-bottom: 0%;
@@ -184,14 +162,6 @@ a {
 	width: 90%;
 	height: 1000px;
 }
-
-#external {
-	margin-left: 5%;
-	width: 90%;
-	height: 300px;
-	overflow: auto;
-}
-
 
 #map {
 	width: 98%;
@@ -422,11 +392,6 @@ path:hover {
 	text-align: left;
 	color: #666;
 	font-size: 14px;
-}
-
-#myDiv {
-	border: solid black 2px;
-	width: 250px;
 }
 
 p {
