@@ -20,7 +20,7 @@ body {
 
 #main_index {
 	width: 90%;
-	height: 1650px;
+	height: 1200px;
 	margin-bottom: 1%;
 	margin-top: 1%;
 	margin-left: 5%;
@@ -35,7 +35,7 @@ body {
 #main_about {
 	padding-top: 10px;
 	width: 90%;
-	height: 2750px;
+	height: 2580px;
 	margin-bottom: 3%;
 	margin-top: 3%;
 	margin-left: 5%;
@@ -86,7 +86,7 @@ body {
 /*main part*/
 
 #introduction {
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-left: 5%;
 	width: 90%;
 	height: 400px;
@@ -100,7 +100,7 @@ a {
 #introduction_left {
 	margin-top: 2px;
 	margin-left: 5px;
-	height: 58%;
+	height: 59%;
 	width: 25%; 
 	float: left;
 	border-radius: 25px;
@@ -147,7 +147,7 @@ a {
 }
 
 #table {
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-bottom: 0%;
 	margin-left: 10%;
 }
@@ -158,7 +158,7 @@ a {
 }
 
 #about_me {
-	margin-top: 5%;
+	margin-top: 1%;
 	margin-left: 5%;
 	width: 90%;
 	height: 440px;
@@ -168,7 +168,7 @@ a {
 }
 
 #about_project {
-	margin-top: 5%;
+	margin-top: 1%;
 	margin-left: 5%;
 	width: 90%;
 	height: 1600px;
@@ -182,7 +182,7 @@ a {
 	margin-top: 5%;
 	margin-left: 5%;
 	width: 90%;
-	height: 1300px;
+	height: 1000px;
 }
 
 #external {
@@ -195,7 +195,7 @@ a {
 
 #map {
 	width: 98%;
-	height: 45%;
+	height: 55%;
 	overflow: hidden;
 	border-radius: 25px;
 	margin-top: 5px;
@@ -219,13 +219,12 @@ a {
 }
 
 #below_map {
+	height: 300px;
 	width: 98%;
-	height: 48%;
-	margin-left: 1%;
+	border-radius: 25px;
+	background-color: #99FF66
 }
 
-svg {
-}
 
 #short_descripton {
 	margin-top: 1%;
@@ -234,6 +233,13 @@ svg {
 	background-color: #99CC33;
 	border: 1px solid green;
 	border-radius: 25px;
+	overflow: hidden;
+}
+
+#short_description_text{
+	margin-top: 3%;
+	margin-left: 1%;
+	text-align: center;
 }
 
 #paragraph_text {
@@ -243,13 +249,7 @@ svg {
 	font-size: 100%;
 }
 
-#explain {
-	height: 98%;
-	width: 60%;
-	float: right;
-	border-radius: 25px;
-	background-color: #99FF66
-}
+
 /* footer part*/
 
 .folder {
