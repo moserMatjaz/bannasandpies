@@ -237,7 +237,7 @@ a {
 }
 
 #short_description_text{
-	margin-top: 3%;
+	margin-top: 2%;
 	margin-left: 1%;
 	text-align: center;
 }
@@ -359,6 +359,7 @@ img {
 	margin-left: 6%;
 }
 #to_about {
+	margin-top: 5%;
 	text-align: center;	 
 }
 
