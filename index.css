@@ -1,419 +1,48 @@
-/* main elements of the page*/
-html {
-	background-color: #A0A0A0;
-	background-image: url("cake3.jpg");
-	background-repeat: repeat-y;
-	background-attachment: fixed !important;
-	width: 100%
-}
-
-#banner {
-	width: 90%;
-	height: 150px;
-	margin-left: 5%;
-	background-color: #669966;
-	opacity: 0.9;
-	min-width:300px;
-	max-width:1500px;
-	border-radius: 25px;
-}
-
-#main_index {
-	width: 90%;
-	height: 1200px;
-	margin-bottom: 1%;
-	margin-top: 1%;
-	margin-left: 5%;
-	background-color: #66CC66;
-	opacity: 0.9;
-	min-width:300px;
-	max-width:1500px;
-	border-radius: 25px;
-	overflow: hidden;
-}
-
-#main_about {
-	padding-top: 10px;
-	width: 90%;
-	height: 2600px;
-	margin-bottom: 3%;
-	margin-top: 3%;
-	margin-left: 5%;
-	background-color: #66CC66;
-	opacity: 0.9;
-	min-width:300px;
-	max-width:1500px;
-	border-radius: 25px;
-	overflow: hidden;
-}
-
-#footer {
-	width: 90%;
-	height: 150px;
-	margin-left: 5%;
-	background-color: #669966;
-	opacity: 0.9;
-	min-width:300px;
-	max-width:1500px;
-	border-radius: 25px;
-}
-/*header part*/
-
-.head {
-	height: 85%;
-	width: 50%;
-	float:left;
-	margin-left: 5%;
-	margin-top: 0.75%;
-	margin-bottom: 1%;
-	border-radius: 25px;
-	background-color: #CCFF99;
-	min-width:300px;
-	max-width:600px;
-	overflow: hidden;
-}
-
-#banner_text {
-	height: 40%;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 40px;
-	padding: 0%;
-	overflow: hidden;
-	text-align:center;
-	vertical-align: middle;
-	margin-top: 5%;
-	margin-bottom: 0%;
-}
-
-#under_banner {
-	margin-top: 0%;
-	height: 15%;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 15px;
-	padding: 0%;
-	overflow: hidden;
-	text-align:center;
-	vertical-align: middle;
-}
-
-/*main part*/
-
-#introduction {
-	margin-top: 2%;
-	margin-left: 5%;
-	width: 90%;
-	height: 470px;
-}
-
-a {
-	font-family: 'Libre Baskerville', serif;
-	color: black;
-}
-
-#introduction_left {
-	margin-top: 2px;
-	margin-left: 5px;
-	height: 59%;
-	width: 25%; 
-	float: left;
-	border-radius: 25px;
-	background-color: #99FF66;
-	overflow: auto;
-}
-
-#introduction_right {
-	margin-top: 2px;
-	height: 90%;
-	width: 70%;	
-	float: right;
-	overflow: auto;
-	border-radius: 25px;
-	background-color: #99FF66
-}
-
-#introduction_text {
-	margin-top: 0%;
-	margin-bottom: 2%;
-	margin-left: 2%;
-}
-
-#table {
-	margin-top: 1%;
-	margin-bottom: 0%;
-	margin-left: 10%;
-}
-
-#introduction_header {
-	margin-top: 1%;
-	margin-left: 2%;
-}
-
-#about_me {
-	margin-top: 1%;
-	margin-left: 5%;
-	width: 90%;
-	height: 440px;
-	background-color: #99CC33;
-	border-radius: 25px;
-	overflow: auto;
-}
-
-#about_project {
-	margin-top: 1%;
-	margin-left: 5%;
-	width: 90%;
-	height: 1600px;
-	overflow: auto;
-	background-color: #99CC33;
-	margin-bottom: 5%;
-	border-radius: 25px;
-}
-
-#project {
-	margin-top: 5%;
-	margin-left: 5%;
-	width: 90%;
-	height: 1000px;
-}
-
-#map {
-	width: 98%;
-	height: 55%;
-	overflow: hidden;
-	border-radius: 25px;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	opacity: 1;
-	background-color: #99FF66;
-	overflow: hidden;
-}
-
-#inside_map {
-	height: 500px;
-	width: 250px;
-	background-color: #99CC33;
-	border: 1px solid green;
-	margin-left: 1%;
-	margin-top: 1%;
-	position: absolute;
-	border-radius: 25px;
-	float: right;
-	overflow: auto;
-}
-
-#below_map {
-	height: 300px;
-	width: 98%;
-	border-radius: 25px;
-	background-color: #99FF66;
-	text-align:center;
-}
-
-#explanation_head {
-	text-align:center;
-	padding-top: 1%
-}
-
-
-#short_descripton {
-	margin-top: 0%;
-	width: 98%;
-	height: 10%;
-	background-color: #99CC33;
-	border: 1px solid green;
-	border-radius: 25px;
-	overflow: hidden;
-}
-
-#short_description_text{
-	margin-top: 2%;
-	margin-left: 1%;
-	text-align: center;
-}
-
-#paragraph_text {
-	margin-left: 10%;
-	margin-top: 1%;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 100%;
-}
-
-
-/* footer part*/
-
-.folder {
-	height: 85%;
-	width: 35%;
-	float:right;
-	margin-right: 5%;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	margin-top: 0.75%;
-	padding: 0%;
-	overflow: hidden;
-	border-radius: 25px;
-	background-color: #CCFF99;
-	min-width:300px;
-	max-width:600px;
-}
-
-.conectors {
-	height: 41px;
-	width: 240px;
-	min-width:240px;
-	max-width:240px;
-	margin: 0 auto;
-    padding: 40px;
-    position: relative;
-	}
-
-.conectors_index {
-	height: 41px;
-	width: 185px;
-	min-width:185px;;
-	max-width:185px;;
-	margin: 0 auto;
-    padding: 40px;
-    position: relative;
-	}
-
-.git {
-	height: 40px;
-	width: 40px;
-	float:left;
-	overflow:hidden;
-	padding: 0%;
-	min-width:30px;
-	max-width:50px;
-	margin-left: 3%;
-}
-
-.face {
-	height: 40px;
-	width: 40px;
-    padding: 0%;
-    float:left;
-    min-width:30px;
-	max-width:50px;
-	margin-left: 3%;
-}
-
-.linked {
-	height: 40px;
-	width: 40px;
-	overflow:hidden;
-	padding: 0%;
-	float:left;
-	min-width:30px;
-	max-width:50px;
-	margin-left: 3%;
-}
-
-.mail_to {
-	height: 40px;
-	width: 40px;
-	float:right;
-	overflow:hidden;
-	padding: 0%;
-	float:left;
-	min-width:30px;
-	max-width:50px;
-	margin-left: 3%;
-}
-
-.home {
-	height: 40px;
-	width: 40px;
-	float:right;
-	overflow:hidden;
-	padding: 0%;
-	float:left;
-	min-width:30px;
-	max-width:50px;
-	margin-left: 3%;
-}
-
-img {
-	height: 40px;
-	width: 40px;
-}
-
-.footer_text_header {
-	margin-top: 1%;
-	margin-left: 6%;
-	margin-right: 0%;
-	margin-bottom: 1%
-}
-.footer_text {
-	margin-left: 6%;
-}
-#to_about {
-	margin-top: 5%;
-	text-align: center;	 
-}
-
-/*common stuff*/
-
-h2 {
-	margin-left: 1%;
-	font-family: 'Libre Baskerville', serif;
-}
-
-h3 {
-	margin-left: 1%;
-	font-family: 'Libre Baskerville', serif;
-}
-
-p {
-	font-family: 'Libre Baskerville', serif;
-}
-
-.normal_text {
-	margin-left: 1%;
-	font-family: 'Libre Baskerville', serif;
-}
-
-/* visualisation stuff */
-
-path {
-    stroke: black;
-    stroke-width: 1px;
-    fill: #585858;
-    opacity: 0.5;
-}
-
-path:hover {
-	stroke-width: 1px;
-	opacity: 1;
-	fill: #000033;
-}
-
-.selected {
-	opacity: 1;
-}
-
-.in_scope {
-	stroke: blue;
-	stroke-width: 0.5px;
-	fill: black;
-	opacity: 1;
-}
-
-#text {
-	border: solid #ccc 1px;
-	color: #666;
-}
-
-.country_selector { 
-	position: absolute;
-	background: #fff;
-	padding: 5px;
-	text-align: left;
-	color: #666;
-	font-size: 14px;
-}
-
-p {
-	margin: 0%;
-}
-
+html{background-color:#A0A0A0;background-image:url("cake3.jpg");background-repeat:repeat-y;background-attachment:fixed !important;width:100%}
+#banner{width:90%;height:150px;margin-left:5%;background-color:#669966;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;}
+#main_index{width:90%;height:1200px;margin-bottom:1%;margin-top:1%;margin-left:5%;background-color:#66CC66;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;overflow:hidden;}
+#main_about{padding-top:10px;width:90%;height:2600px;margin-bottom:3%;margin-top:3%;margin-left:5%;background-color:#66CC66;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;overflow:hidden;}
+#footer{width:90%;height:150px;margin-left:5%;background-color:#669966;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;}
+.head{height:85%;width:50%;float:left;margin-left:5%;margin-top:0.75%;margin-bottom:1%;border-radius:25px;background-color:#CCFF99;min-width:300px;max-width:600px;overflow:hidden;}
+#banner_text{height:40%;font-family:'Libre Baskerville', serif;font-size:40px;padding:0%;overflow:hidden;text-align:center;vertical-align:middle;margin-top:5%;margin-bottom:0%;}
+#under_banner{margin-top:0%;height:15%;font-family:'Libre Baskerville', serif;font-size:15px;padding:0%;overflow:hidden;text-align:center;vertical-align:middle;}
+#introduction{margin-top:2%;margin-left:5%;width:90%;height:470px;}
+a{font-family:'Libre Baskerville', serif;color:black;}
+#introduction_left{margin-top:2px;margin-left:5px;height:59%;width:25%;float:left;border-radius:25px;background-color:#99FF66;overflow:auto;}
+#introduction_right{margin-top:2px;height:90%;width:70%;float:right;overflow:auto;border-radius:25px;background-color:#99FF66}
+#introduction_text{margin-top:0%;margin-bottom:2%;margin-left:2%;}
+#table{margin-top:1%;margin-bottom:0%;margin-left:10%;}
+#introduction_header{margin-top:1%;margin-left:2%;}
+#about_me{margin-top:1%;margin-left:5%;width:90%;height:440px;background-color:#99CC33;border-radius:25px;overflow:auto;}
+#about_project{margin-top:1%;margin-left:5%;width:90%;height:1600px;overflow:auto;background-color:#99CC33;margin-bottom:5%;border-radius:25px;}
+#project{margin-top:5%;margin-left:5%;width:90%;height:1000px;}
+#map{width:98%;height:55%;overflow:hidden;border-radius:25px;margin-top:5px;margin-bottom:10px;opacity:1;background-color:#99FF66;overflow:hidden;}
+#inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:auto;}
+#below_map{height:300px;width:98%;border-radius:25px;background-color:#99FF66;text-align:center;}
+#explanation_head{text-align:center;padding-top:1%}
+#short_descripton{margin-top:0%;width:98%;height:10%;background-color:#99CC33;border:1px solid green;border-radius:25px;overflow:hidden;}
+#short_description_text{margin-top:2%;margin-left:1%;text-align:center;}
+#paragraph_text{margin-left:10%;margin-top:1%;font-family:'Libre Baskerville', serif;font-size:100%;}
+.folder{height:85%;width:35%;float:right;margin-right:5%;margin-top:1%;margin-bottom:1%;margin-top:0.75%;padding:0%;overflow:hidden;border-radius:25px;background-color:#CCFF99;min-width:300px;max-width:600px;}
+.conectors{height:41px;width:240px;min-width:240px;max-width:240px;margin:0 auto;padding:40px;position:relative;}
+.conectors_index{height:41px;width:185px;min-width:185px;;max-width:185px;;margin:0 auto;padding:40px;position:relative;}
+.git{height:40px;width:40px;float:left;overflow:hidden;padding:0%;min-width:30px;max-width:50px;margin-left:3%;}
+.face{height:40px;width:40px;padding:0%;float:left;min-width:30px;max-width:50px;margin-left:3%;}
+.linked{height:40px;width:40px;overflow:hidden;padding:0%;float:left;min-width:30px;max-width:50px;margin-left:3%;}
+.mail_to{height:40px;width:40px;float:right;overflow:hidden;padding:0%;float:left;min-width:30px;max-width:50px;margin-left:3%;}
+.home{height:40px;width:40px;float:right;overflow:hidden;padding:0%;float:left;min-width:30px;max-width:50px;margin-left:3%;}
+img{height:40px;width:40px;}
+.footer_text_header{margin-top:1%;margin-left:6%;margin-right:0%;margin-bottom:1%}
+.footer_text{margin-left:6%;}
+#to_about{margin-top:5%;text-align:center;}
+h2{margin-left:1%;font-family:'Libre Baskerville', serif;}
+h3{margin-left:1%;font-family:'Libre Baskerville', serif;}
+p{font-family:'Libre Baskerville', serif;}
+.normal_text{margin-left:1%;font-family:'Libre Baskerville', serif;}
+path{stroke:black;stroke-width:1px;fill:#585858;opacity:0.5;}
+path:hover{stroke-width:1px;opacity:1;fill:#000033;}
+.selected{opacity:1;}
+.in_scope{stroke:blue;stroke-width:0.5px;fill:black;opacity:1;}
+#text{border:solid #ccc 1px;color:#666;}
+.country_selector{position:absolute;background:#fff;padding:5px;text-align:left;color:#666;font-size:14px;}
+p{margin:0%;}
