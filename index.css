@@ -192,7 +192,13 @@ a {
 	height: 300px;
 	width: 98%;
 	border-radius: 25px;
-	background-color: #99FF66
+	background-color: #99FF66;
+	text-align:center;
+}
+
+#explanation_head {
+	text-align:center;
+	padding-top: 1%
 }
 
 

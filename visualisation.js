@@ -42,16 +42,12 @@ function main(error, world, countryData){
             .style("opacity", 0.8);
         })
         .on("mouseout", function(d) {
-            country_selector.style("opacity", 0)
-            .style("display", "none");
+            country_selector.style("opacity", 0).style("display", "none");
         })
         .on("mousemove", function(d) {
-            country_selector.style("left", (d3.event.pageX + 7) + "px")
-            .style("top", (d3.event.pageY - 15) + "px");
+            country_selector.style("left", (d3.event.pageX + 7) + "px").style("top", (d3.event.pageY - 15) + "px");
         })
         .on("click", function(d) { 
-            
-
             if (c1[d.id] > -1) {
             var current_country = d3.select(this).style("fill", "red");
             var country_selected = country_names[d.id];
@@ -99,7 +95,6 @@ function main(error, world, countryData){
                 },
                   failure: function(msg){console.log("failed")}
                 }); } else { window.alert("NOT IN DATASET. Please choose a shaded country.");
-                            //d3.select(this).style("fill", "#585858");
                             } 
         })
 
