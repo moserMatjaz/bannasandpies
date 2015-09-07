@@ -17,7 +17,7 @@ a{font-family:'Libre Baskerville', serif;color:black;}
 #project{margin-top:5%;margin-left:5%;width:90%;height:1000px;}
 #map{width:98%;height:55%;overflow:hidden;border-radius:25px;margin-top:5px;margin-bottom:10px;opacity:1;background-color:#99FF66;overflow:hidden;}
 #inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:auto;}
-#below_map{height:300px;width:98%;border-radius:25px;background-color:#99FF66;text-align:center;}
+#below_map{height:300px;width:98%;border-radius:25px;background-color:#99FF66;text-align:center; overflow: auto;}
 #explanation_head{text-align:center;padding-top:1%}
 #short_descripton{margin-top:0%;width:98%;height:10%;background-color:#99CC33;border:1px solid green;border-radius:25px;overflow:hidden;}
 #short_description_text{margin-top:2%;margin-left:1%;text-align:center;}
