@@ -1,6 +1,6 @@
 #banner{width:90%;height:150px;margin-left:5%;background-color:#669966;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;}
 #main_index{width:90%;height:1800px;margin-bottom:1%;margin-top:1%;margin-left:5%;background-color:#66CC66;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;overflow:hidden;}
-#main_about{padding-top:10px;width:90%;height:2600px;margin-bottom:3%;margin-top:3%;margin-left:5%;background-color:#66CC66;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;overflow:hidden;}
+#main_about{padding-top:10px;width:90%;height:2500px;margin-bottom:3%;margin-top:3%;margin-left:5%;background-color:#66CC66;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;overflow:hidden;}
 #footer{width:90%;height:150px;margin-left:5%;background-color:#669966;opacity:0.9;min-width:300px;max-width:1500px;border-radius:25px;}
 .head{height:85%;width:50%;float:left;margin-left:5%;margin-top:0.75%;margin-bottom:1%;border-radius:25px;background-color:#CCFF99;min-width:300px;max-width:600px;overflow:hidden;}
 #banner_text{height:40%;font-family:'Libre Baskerville', serif;font-size:40px;padding:0%;overflow:hidden;text-align:center;vertical-align:middle;margin-top:5%;margin-bottom:0%;}
@@ -13,7 +13,7 @@ a{font-family:'Libre Baskerville', serif;color:black;}
 #table{margin-top:1%;margin-bottom:0%;margin-left:10%;}
 #introduction_header{margin-top:1%;margin-left:2%;}
 #about_me{margin-top:1%;margin-left:5%;width:90%;height:440px;background-color:#99CC33;border-radius:25px;overflow:auto;}
-#about_project{margin-top:1%;margin-left:5%;width:90%;height:1600px;overflow:auto;background-color:#99CC33;margin-bottom:5%;border-radius:25px;}
+#about_project{margin-top:1%;margin-left:5%;width:90%;height:1480px;overflow:auto;background-color:#99CC33;margin-bottom:5%;border-radius:25px;}
 #project{margin-top:5%;margin-left:5%;width:90%;height:1000px;}
 #map{width:98%;height:55%;overflow:hidden;border-radius:25px;margin-top:5px;margin-bottom:10px;opacity:1;background-color:#99FF66;overflow:hidden;}
 #inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:auto;}
