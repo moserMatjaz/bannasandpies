@@ -11,7 +11,6 @@ function main(error,world,countryData){
 	var countries=topojson.feature(world,world.objects.countries).features;
 	countryData.forEach(function(d){country_names[d.id]=d.name;if(d.c1>0){country_IDs[d.id]=d.id;}if(d.c1>0){c1[d.id]=d.c1;}});
 	var colour_scale=d3.scale.linear().domain([0,32]).range(["red","yellow"]);
-	var colour_initial=d3.scale.linear().domain([1,33]).range(["black","white"]);
 	g.selectAll("path").data(countries)
 		.enter().append("svg:path")
 		.attr("d",path)

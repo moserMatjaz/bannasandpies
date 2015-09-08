@@ -19,8 +19,8 @@ a{font-family:'Libre Baskerville', serif;color:black;}
 #inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:auto;opacity: 0.8;}
 #below_map{height:900px;width:98%;border-radius:25px;background-color:#99FF66;text-align:center; overflow: auto;}
 #explanation_head{text-align:center;padding-top:1%}
-#explanation_text{margin-left:1%;margin-top:1%;font-family:'Libre Baskerville', serif;font-size:90%; text-align: left;}
-#short_descripton{margin-top:0%;width:98%;height:10%;background-color:#99CC33;border:1px solid green;border-radius:25px;overflow:hidden;}
+#explanation_text{margin-left:1%;margin-top:1%;font-family:'Libre Baskerville', serif;font-size:90%; text-align: left; }
+#short_descripton{margin-top:0%;width:98%;height:12%;background-color:#99CC33;border:1px solid green;border-radius:25px;overflow:auto;}
 #short_description_text{margin-top:2%;margin-left:1%;text-align:center;}
 #paragraph_text{margin-left:10%;margin-top:1%;font-family:'Libre Baskerville', serif;font-size:100%;}
 .folder{height:85%;width:35%;float:right;margin-right:5%;margin-top:1%;margin-bottom:1%;margin-top:0.75%;padding:0%;overflow:hidden;border-radius:25px;background-color:#CCFF99;min-width:300px;max-width:600px;}
@@ -33,7 +33,7 @@ a{font-family:'Libre Baskerville', serif;color:black;}
 .home{height:40px;width:40px;float:right;overflow:hidden;padding:0%;float:left;min-width:30px;max-width:50px;margin-left:3%;}
 img{height:40px;width:40px;}
 .footer_text_header{margin-top:1%;margin-left:6%;margin-right:0%;margin-bottom:1%}
-.footer_text{margin-left:6%;}
+.footer_text{margin-left:6%;margin-top:0%;margin-bottom:0%;line-height: 100% !important;}
 #to_about{margin-top:5%;text-align:center;}
 h2{margin-left:1%;font-family:'Libre Baskerville', serif;}
 h3{margin-left:1%;font-family:'Libre Baskerville', serif;}
@@ -45,5 +45,7 @@ path:hover{stroke-width:1px;opacity:1;fill:#000033;}
 .in_scope{stroke:blue;stroke-width:0.5px;fill:black;opacity:1;}
 #text{border:solid #ccc 1px;color:#666;}
 .country_selector{position:absolute;background:none;padding:5px;text-align:left;color:#FFFFFF;font-size:20px; opacity: 1;}
-p{margin:0%;}
 svg {padding-left: 20%}
+p {
+	line-height: 150%;
+}
