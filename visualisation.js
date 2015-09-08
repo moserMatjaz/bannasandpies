@@ -1,9 +1,9 @@
 var width=2000;
-var height=500;
+var height=600;
 var svg=d3.select("#map").append("svg").attr("width",width).attr("height",height);
 var projection=d3.geo.mercator().center([40,35]).scale(200).rotate([0,0,0]);
 var path=d3.geo.path().projection(projection);var g=svg.append("g");
-var country_selector=d3.select("#map").append("div").attr("class","country_selector").attr("width",width/20).attr("height",height/20);
+var country_selector=d3.select("#map").append("div").attr("class","country_selector").attr("width",width).attr("height",height/20);
 queue().defer(d3.json,"world-110m.json").defer(d3.csv,"country_data.csv").await(main);
 function main(error,world,countryData){
 	var country_IDs=[];var country_names=[];
@@ -31,4 +31,4 @@ function main(error,world,countryData){
 var element=document.getElementById("paragraph_text");
 if(element!=null){element.parentNode.removeChild(element);}var paragraph=document.createElement("p");paragraph.id="paragraph_text";var text_output=document.getElementById("inside_map");text_output.appendChild(paragraph)
 for(z=0;z<31;z++){d3.select("path#_"+data.results[0].data[z].row[2]).style("fill",colour_scale(z)).style("stroke-width","1px").attr("class","selected");var name=data.results[0].data[z].row[0];var value=data.results[0].data[z].row[1];value=value.toFixed(3); var rank = z +1;var output= rank + ": " + name+" - "+value;var div=document.getElementById('paragraph_text');div.innerHTML=div.innerHTML+output+'<br>';};},failure:function(msg){console.log("failed")}});}else{window.alert("NOT IN DATASET. Please choose a shaded country.");}})
-for(k=0;k<country_IDs.length;k++){d3.select("path#_"+country_IDs[k]).attr("class","in_scope").style("opacity", 1).style("fill",colour_initial(count[k]));}};var zooming=d3.behavior.zoom().on("zoom",function(){g.attr("transform","translate("+d3.event.translate.join(",")+")scale("+d3.event.scale+")");g.selectAll("path").attr("d",path.projection(projection));});svg.call(zooming).on("dblclick.zoom",null);
+for(k=0;k<country_IDs.length;k++){d3.select("path#_"+country_IDs[k]).attr("id","in_scope").style("opacity", 1).style("fill",colour_initial(count[k]));}};var zooming=d3.behavior.zoom().on("zoom",function(){g.attr("transform","translate("+d3.event.translate.join(",")+")scale("+d3.event.scale+")");g.selectAll("path").attr("d",path.projection(projection));});svg.call(zooming).on("dblclick.zoom",null);
