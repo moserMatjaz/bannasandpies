@@ -15,12 +15,12 @@ a{font-family:'Libre Baskerville', serif;color:black;}
 #about_me{margin-top:1%;margin-left:5%;width:90%;height:440px;background-color:#99CC33;border-radius:25px;overflow:auto;}
 #about_project{margin-top:1%;margin-left:5%;width:90%;height:1480px;overflow:auto;background-color:#99CC33;margin-bottom:5%;border-radius:25px;}
 #project{margin-top:5%;margin-left:5%;width:90%;height:1000px;}
-#map{width:98%;height:55%;overflow:hidden;border-radius:25px;margin-top:5px;margin-bottom:10px;opacity:1;background-color:#99FF66;overflow:hidden; padding: 0%}
-#inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:auto;opacity: 0.8}
+#map{width:98%;height:55%;overflow:hidden;border-radius:25px;margin-top:5px;margin-bottom:10px;opacity:1;background-color:#99FF66;overflow:hidden;}
+#inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:auto;opacity: 0.8;}
 #below_map{height:900px;width:98%;border-radius:25px;background-color:#99FF66;text-align:center; overflow: auto;}
 #explanation_head{text-align:center;padding-top:1%}
 #explanation_text{margin-left:1%;margin-top:1%;font-family:'Libre Baskerville', serif;font-size:90%; text-align: left;}
-#short_descripton{margin-top:0%;width:98%;height:10%;background-color:#99CC33;border:1px solid green;border-radius:25px;overflow:auto;}
+#short_descripton{margin-top:0%;width:98%;height:10%;background-color:#99CC33;border:1px solid green;border-radius:25px;overflow:hidden;}
 #short_description_text{margin-top:2%;margin-left:1%;text-align:center;}
 #paragraph_text{margin-left:10%;margin-top:1%;font-family:'Libre Baskerville', serif;font-size:100%;}
 .folder{height:85%;width:35%;float:right;margin-right:5%;margin-top:1%;margin-bottom:1%;margin-top:0.75%;padding:0%;overflow:hidden;border-radius:25px;background-color:#CCFF99;min-width:300px;max-width:600px;}
@@ -42,9 +42,8 @@ p{font-family:'Libre Baskerville', serif;}
 path{stroke:black;stroke-width:1px;fill:#585858;opacity:0.5;}
 path:hover{stroke-width:1px;opacity:1;fill:#000033;}
 .selected{opacity:1;}
+.in_scope{stroke:blue;stroke-width:0.5px;fill:black;opacity:1;}
 #text{border:solid #ccc 1px;color:#666;}
-.country_selector{position:absolute;background:#fff;padding:5px;text-align:left;color:#666;font-size:14px;}
+.country_selector{position:absolute;background:none;padding:5px;text-align:left;color:#FFFFFF;font-size:20px; opacity: 1;}
 p{margin:0%;}
-svg {
-	padding-left: 10%;
-}
+svg {padding-left: 20%}
