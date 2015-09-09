@@ -47,6 +47,4 @@ path:hover{stroke-width:1px;opacity:1;fill:#000033;}
 #text{border:solid #ccc 1px;color:#666;}
 .country_selector{position:absolute;background:none;padding:5px;text-align:left;color:#FFFFFF;font-size:20px; opacity: 1;}
 svg {padding-left: 10%}
-p {
-	line-height: 150%;
-}
+p{line-height: 150%;}
