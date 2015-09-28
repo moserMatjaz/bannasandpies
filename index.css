@@ -7,7 +7,7 @@
 #under_banner{margin-top:0%;height:15%;font-family:'Libre Baskerville', serif;font-size:15px;padding:0%;overflow:hidden;text-align:center;vertical-align:middle;}
 #introduction{margin-top:2%;margin-left:5%;width:90%;height:470px;}
 a{font-family:'Libre Baskerville', serif;color:black;}
-#introduction_left{margin-top:2px;margin-left:5px;height:59%;width:25%;float:left;border-radius:25px;background-color:#99FF66;overflow:auto; padding-top:5px;}
+#introduction_left{margin-top:2px;height:59%;width:25%;float:left;border-radius:25px;background-color:#99FF66;overflow:hidden; padding-top:5px;}
 #introduction_right{margin-top:2px;height:90%;width:70%;float:right;overflow:auto;border-radius:25px;background-color:#99FF66}
 #introduction_text{margin-top:0%;margin-bottom:2%;margin-left:2%;}
 #table_header{margin-top:1%;margin-bottom:0%;margin-left:10%;line-height: 100% !important;}
