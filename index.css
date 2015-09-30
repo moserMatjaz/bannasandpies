@@ -19,7 +19,8 @@ a{font-family:'Libre Baskerville', serif;color:black;}
 #about_project{margin-top:1%;margin-left:5%;width:90%;height:1480px;overflow:auto;background-color:#99CC33;margin-bottom:5%;border-radius:25px;}
 #project{margin-top:5%;margin-left:5%;width:90%;height:1000px;}
 #map{width:98%;height:55%;overflow:hidden;border-radius:25px;margin-top:5px;margin-bottom:10px;opacity:1;background-color:#99FF66;overflow:hidden;}
-#inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:auto;opacity: 0.8;}
+#inside_map{height:500px;width:250px;background-color:#99CC33;border:1px solid green;margin-left:1%;margin-top:1%;position:absolute;border-radius:25px;float:right;overflow:hidden;opacity: 0.8;}
+#inside_map:hover{height:750px; opacity:0.9; font-weight: bold;}
 #below_map{height:900px;width:98%;border-radius:25px;background-color:#99FF66;text-align:center; overflow: auto;}
 #explanation_head{text-align:center;padding-top:1%}
 #explanation_text{margin-left:1%;margin-top:1%;font-family:'Libre Baskerville', serif;font-size:90%; text-align: left; }
@@ -35,6 +36,7 @@ a{font-family:'Libre Baskerville', serif;color:black;}
 .mail_to{height:40px;width:40px;float:right;overflow:hidden;padding:0%;float:left;min-width:30px;max-width:50px;margin-left:3%;}
 .home{height:40px;width:40px;float:right;overflow:hidden;padding:0%;float:left;min-width:30px;max-width:50px;margin-left:3%;}
 img{height:40px;width:40px;}
+img:hover{height:45px;width:45px;}
 .footer_text_header{margin-top:1%;margin-left:6%;margin-right:0%;margin-bottom:1%}
 .footer_text{margin-left:6%;margin-top:0%;margin-bottom:0%;line-height: 170% !important;}
 #to_about{margin-top:5%;text-align:center;}
