@@ -1,0 +1,291 @@
+#banner {
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    background-color: #696;
+    opacity: .9;
+    min-width: 300px;
+    max-width: 1500px;
+    border-radius: 25px;
+}
+
+#main_index {
+    width: 90%;
+    height: 600px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-color: #6C6;
+    opacity: .9;
+    min-width: 300px;
+    max-width: 1500px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#main_about {
+    padding-top: 10px;
+    width: 90%;
+    height: 2500px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+    background-color: #6C6;
+    opacity: .9;
+    min-width: 300px;
+    max-width: 1500px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#footer {
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    background-color: #696;
+    opacity: .9;
+    min-width: 300px;
+    max-width: 1500px;
+    border-radius: 25px;
+}
+
+.head {
+    height: 85%;
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: .75%;
+    margin-bottom: 1%;
+    border-radius: 25px;
+    background-color: #CF9;
+    min-width: 300px;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+#banner_text {
+    height: 40%;
+    font-family: 'Libre Baskerville',serif;
+    font-size: 40px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+#under_banner {
+    margin-top: 0;
+    height: 15%;
+    font-family: 'Libre Baskerville',serif;
+    font-size: 15px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#project {
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 65%;
+    height: 575px;
+}
+
+#explanation_head {
+    text-align: center;
+    padding-top: 1%;
+}
+
+#explanation_text {
+    margin-left: 1%;
+    margin-top: 1%;
+    font-family: 'Libre Baskerville',serif;
+    font-size: 90%;
+    text-align: left;
+}
+
+#short_descripton {
+    margin-top: 0;
+    width: 98%;
+    height: 80%;
+    padding-left: 5%;
+    background-color: #9C3;
+    border: 1px solid green;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+
+#paragraph_text {
+    margin-left: 10%;
+    margin-top: 1%;
+    font-family: 'Libre Baskerville',serif;
+    font-size: 100%;
+}
+
+.folder {
+    height: 85%;
+    width: 35%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-top: .75%;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #CF9;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.conectors {
+    height: 41px;
+    width: 240px;
+    min-width: 240px;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-left: 20%;
+    padding: 40px;
+    position: relative;
+}
+
+.git {
+    height: 40px;
+    width: 40px;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    min-width: 30px;
+    max-width: 50px;
+    margin-left: 3%;
+}
+
+.face {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    float: left;
+    min-width: 30px;
+    max-width: 50px;
+    margin-left: 3%;
+}
+
+.linked {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+    min-width: 30px;
+    max-width: 50px;
+    margin-left: 3%;
+}
+
+.home {
+    height: 40px;
+    width: 40px;
+    float: right;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+    min-width: 30px;
+    max-width: 50px;
+    margin-left: 3%;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+img:hover {
+    height: 45px;
+    width: 45px;
+}
+
+.footer_text_header {
+    margin: 1% 0 1% 6%;
+}
+
+.footer_text {
+    margin-left: 6%;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 170% !important;
+}
+
+h2 {
+    margin-left: 1%;
+    font-family: 'Libre Baskerville',serif;
+}
+
+h3 {
+    margin-left: 1%;
+    font-family: 'Libre Baskerville',serif;
+}
+
+p {
+    font-family: 'Libre Baskerville',serif;
+    line-height: 150%;
+}
+
+.mail {
+    margin-top: 1%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family: 'Libre Baskerville',serif;
+    font-size: 100%;
+}
+
+#form {
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+#form_right {
+    margin-top: 5%;
+    margin-right: 15%;
+    float: right;
+    height: 85%;
+    width: 45%;
+    overflow: hidden;
+}
+
+#form_left {
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    height: 45%;
+    width: 25%;
+    overflow: hidden;
+}
+
+#send {
+    margin-left: 5%;
+}
+
+.buttons {
+    margin-top: 0%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
