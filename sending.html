@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+    html { background-color: #A0A0A0; background-image: url("cake3.jpg"); background-repeat: repeat-y; background-attachment: fixed !important; width: 100% }
+    </style>
+    <link href="cupcake.png" rel="shortcut icon">
+    <title>M.S.I.a.S.U.</title>
+    <link href="mail.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="banner">
+        <div class="folder">
+            <div class="conectors">
+                <div id="conectors_left">
+                    <div class="git">
+                        <a href="https://github.com/moserMatjaz" target=
+                        "_blank"><img src="github-icon.png"></a>
+                    </div>
+                    <div class="face">
+                        <a href="https://www.facebook.com/matjaz.moser" target=
+                        "_blank"><img src="F_icon.png"></a>
+                    </div>
+                </div>
+                <div id="conectors_right">
+                    <div class="linked">
+                        <a href=
+                        "https://www.linkedin.com/pub/matja%C5%BE-moser/88/410/b95"
+                        target="_blank"><img src="Linked_in.png"></a>
+                    </div>
+                    <div class="home">
+                        <a href="index.html"><img src="home.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="head">
+            <h1 id="banner_text">M.S.I.a.S.U.</h1>
+            <p id="under_banner">from raw data to an interactive map</p>
+        </div>
+    </div>
+    <div id="main_index">
+        <div id="project">
+            <div id="short_descripton">
+                <div id = "form_left">
+                    <form action = "sending.php" method = "POST" enctype="multipart/form-data">
+                        <p class = "mail">Name:</p>
+                        <input type = "text" name = "usernname" class ="form" id ="username"><br>
+                        <p class = "mail">Last name:</p>
+                        <input type = "text" name = "lastname" class ="form" id ="lastname"><br>
+                        <p class = "mail">Email:</p>
+                        <input type = "text" name = "email_address" class ="form" id ="email_address"><br>
+                        <p class = "mail">Subject:</p>
+                        <input type = "text" name = "subject" class ="form" id ="subject"><br>
+                    </form>
+                </div>
+                <div id = "form_right">
+                    <form action = "sending.php" method = "POST" enctype="multipart/form-data">
+                        <p class = "mail">Message:</p>
+                        <textarea rows = "20" cols = "50" name = "message" class ="form" id ="message">Type your message here ... </textarea>
+                        <input type = "submit" value = "SEND MESSAGE" name = "button" class = "buttons" id = "send">
+                        <input type = "submit" value = "CLEAR FORM" name = "button2" class = "buttons" id = "clear">
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="folder">
+            <div class="conectors">
+                <div class="git">
+                    <a href="https://github.com/moserMatjaz" target=
+                    "_blank"><img src="github-icon.png"></a>
+                </div>
+                <div class="face">
+                    <a href="https://www.facebook.com/matjaz.moser" target=
+                    "_blank"><img src="F_icon.png"></a>
+                </div>
+                <div class="linked">
+                    <a href=
+                    "https://www.linkedin.com/pub/matja%C5%BE-moser/88/410/b95"
+                    target="_blank"><img src="Linked_in.png"></a>
+                </div>
+                <div class="home">
+                    <a href="index.html"><img src="home.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="head">
+            <h3 class="footer_text_header">General information:</h3>
+            <p class="footer_text">Name: Matjaz Moser</p>
+            <p class="footer_text">Email: matjaz.moser[at]gmail.com</p>
+            <p class="footer_text">Address: Grenc 34, 4220 Skofja Loka,
+            Slovenia</p>
+        </div>
+    </div>
+</body>
+</html>
